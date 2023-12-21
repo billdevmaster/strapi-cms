@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_doctor_reg_questions",
+  "info": {
+    "displayName": "Question"
+  },
+  "options": {},
+  "attributes": {
+    "question": {
+      "type": "text"
+    },
+    "options": {
+      "displayName": "Options",
+      "type": "component",
+      "repeatable": true,
+      "component": "doctor-reg.options"
+    }
+  }
+}

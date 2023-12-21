@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_doctor_reg_registration_steps",
+  "info": {
+    "displayName": "Registration-step",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "question": {
+      "displayName": "Question",
+      "type": "component",
+      "repeatable": false,
+      "component": "doctor-reg.question"
+    }
+  }
+}

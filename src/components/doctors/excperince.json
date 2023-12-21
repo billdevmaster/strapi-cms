@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_doctors_excperinces",
+  "info": {
+    "displayName": "Excperince"
+  },
+  "options": {},
+  "attributes": {
+    "place": {
+      "type": "text"
+    },
+    "startDate": {
+      "type": "text"
+    },
+    "endDate": {
+      "type": "text"
+    },
+    "position": {
+      "type": "text"
+    }
+  }
+}

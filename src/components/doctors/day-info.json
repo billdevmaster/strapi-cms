@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_doctors_day_infos",
+  "info": {
+    "displayName": "Day info"
+  },
+  "options": {},
+  "attributes": {
+    "enabled": {
+      "type": "boolean"
+    },
+    "startTime": {
+      "type": "time"
+    },
+    "endTime": {
+      "type": "time"
+    },
+    "workTimes": {
+      "type": "component",
+      "repeatable": true,
+      "component": "doctors.work-times"
+    }
+  }
+}

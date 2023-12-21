@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_doctors_week_days",
+  "info": {
+    "displayName": "Week days",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Sunday": {
+      "displayName": "Day info",
+      "type": "component",
+      "repeatable": false,
+      "component": "doctors.day-info"
+    }
+  }
+}

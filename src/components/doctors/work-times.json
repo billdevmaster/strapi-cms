@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_doctors_work_times",
+  "info": {
+    "displayName": "workTimes"
+  },
+  "options": {},
+  "attributes": {
+    "startTime": {
+      "type": "time"
+    },
+    "endTime": {
+      "type": "time"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_doctors_speaking_languages",
+  "info": {
+    "displayName": "Speaking Languages"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "enumeration",
+      "enum": [
+        "title1"
+      ]
+    }
+  }
+}

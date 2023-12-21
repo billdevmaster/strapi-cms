@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_doctor_reg_options",
+  "info": {
+    "displayName": "Options"
+  },
+  "options": {},
+  "attributes": {
+    "option": {
+      "type": "text"
+    }
+  }
+}

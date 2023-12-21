@@ -1,0 +1,47 @@
+{
+  "kind": "collectionType",
+  "collectionName": "appointment_requests",
+  "info": {
+    "singularName": "appointment-request",
+    "pluralName": "appointment-requests",
+    "displayName": "Appointment request",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "reason": {
+      "type": "text"
+    },
+    "status": {
+      "type": "enumeration",
+      "enum": [
+        "status1"
+      ]
+    },
+    "newDate": {
+      "type": "datetime"
+    },
+    "doctor_appointment": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "admin::user"
+    },
+    "approvedBy": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "plugin::users-permissions.user"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "type1"
+      ]
+    },
+    "doctor_note": {
+      "type": "text"
+    }
+  }
+}
